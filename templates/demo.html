@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="static/style.css">
+<link rel="stylesheet" href="static/anythingzoomer.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="static/jquery.anythingzoomer.js"></script>
+<script>
+  $(function(){
+    $("#zoom").anythingZoomer();
+    $("#secondzoom").anythingZoomer();
+    $("#thirdzoom").anythingZoomer();
+  });
+</script>
+</head>
+
+<body background="static/brushedsteel4.jpg">
+<h1>MicrobIA demos. </h1>
+
+<br>
+<br>
+<h4>Click for a new demo.</h4>
+<center>
+<form action="/" method="get">
+    <input type="submit" value="Demo" 
+         name="Submit" id="frm1_submit" />
+</form>
+</center>
+
+<br>
+<br>
+
+<div id="zoom" align=center>
+  <div class="small">
+    <img src="static/test.jpg" alt="small rushmore" />
+  </div>
+  <div class="large">
+    <img src="static/test.jpg" alt="big rushmore" />
+  </div>
+</div>
+<br>
+<div id="secondzoom" align=center>
+  <div class="small">
+    <img src="static/test.jpg" alt="small rushmore" />
+  </div>
+  <div class="large">
+    <img src="static/test.jpg" alt="big rushmore" />
+  </div>
+</div>
+<br>
+<div id="thirdzoom" align=center>
+  <div class="small">
+    <img src="static/test.jpg" alt="small rushmore" />
+  </div>
+  <div class="large">
+    <img src="static/test.jpg" alt="big rushmore" />
+  </div>
+</div>
+
+<br>
+<br>
+
+<h4>Computer Vision and Machine Learning Group - Copan Italia S.p.a.</h4>
+
+</body>
+</html>
